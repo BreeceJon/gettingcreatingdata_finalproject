@@ -40,10 +40,12 @@ meanstd_data <- select(data,1:2,matches("mean|std"))
 #Import activity descriptions
 activity_labels <- read.table("activity_labels.txt", quote="\"", comment.char="")
 
+#Add activity description to table
 meanstd_data <- merge(meanstd_data,activity_labels, by.x="actname", by.y="V1")
 meanstd_data$actname <- meanstd_data$V2
 meanstd_data$V2 <- NULL
 
+#Tidy column names
 colnames(meanstd_data) <- sub("^f","frequency",colnames(meanstd_data))
 colnames(meanstd_data) <- sub("^t","time",colnames(meanstd_data))
 colnames(meanstd_data) <- gsub("[[:punct:]]","",colnames(meanstd_data))

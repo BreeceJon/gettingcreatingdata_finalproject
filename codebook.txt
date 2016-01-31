@@ -8,6 +8,13 @@ Average for 86 measurements for each activity for each subject
 Dimensions = 180 by 88
 
 
+The data used in this project:  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+For more information: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+
+======================
+Variables:
 actname: Name of Activity (WALKING; WALKING_UPSTAIRS; WALKING_DOWNSTAIRS; SITTING; STANDING; LAYING)
 subject: Subject ID
 
