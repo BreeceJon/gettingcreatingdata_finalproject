@@ -3,10 +3,9 @@
 #Student: Brooks J. Breece
 
 install.packages("dplyr")
-install.packages("tidyr")
 
 library(dplyr)
-library(tidyr)
+
 
 #Import test data
 X_test <- read.table("test\X_test.txt", quote="\"", comment.char="")
