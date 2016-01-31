@@ -34,7 +34,7 @@ names <- c("subject","actname",as.character(features$V2))
 colnames(data) <- names
 colnames(data) <- make.names(colnames(data), unique=TRUE)
 
-#Select columns with mean or std
+#Select first two columns and columns with mean or std
 meanstd_data <- select(data,1:2,matches("mean|std"))
 
 #Import activity descriptions
