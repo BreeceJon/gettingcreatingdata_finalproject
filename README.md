@@ -24,7 +24,7 @@ How the script works:
 3. Binds components
 4. Merges expanded test and train datasets
 5. Imports feature names from features.txt file
-6. Add feature names to columns
+6. Adds feature names to columns
 7. Selects only columns with mean and standard deviation measurements
 8. Imports activity descriptions
 9. Add activity descriptions to table
