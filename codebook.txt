@@ -22,94 +22,97 @@ actname: Name of Activity (WALKING; WALKING_UPSTAIRS; WALKING_DOWNSTAIRS; SITTIN
 subject: Subject ID
 
 Measurements:
-(time = time in seconds of activity; frequency = count of activity)
-timeBodyAccmeanX
-timeBodyAccmeanY
-timeBodyAccmeanZ
-timeBodyAccstdX
-timeBodyAccstdY
-timeBodyAccstdZ
-timeGravityAccmeanX
-timeGravityAccmeanY
-timeGravityAccmeanZ
-timeGravityAccstdX
-timeGravityAccstdY
-timeGravityAccstdZ
-timeBodyAccJerkmeanX
-timeBodyAccJerkmeanY
-timeBodyAccJerkmeanZ
-timeBodyAccJerkstdX
-timeBodyAccJerkstdY
-timeBodyAccJerkstdZ
-timeBodyGyromeanX
-timeBodyGyromeanY
-timeBodyGyromeanZ
-timeBodyGyrostdX
-timeBodyGyrostdY
-timeBodyGyrostdZ
-timeBodyGyroJerkmeanX
-timeBodyGyroJerkmeanY
-timeBodyGyroJerkmeanZ
-timeBodyGyroJerkstdX
-timeBodyGyroJerkstdY
-timeBodyGyroJerkstdZ
-timeBodyAccMagmean
-timeBodyAccMagstd
-timeGravityAccMagmean
-timeGravityAccMagstd
-timeBodyAccJerkMagmean
-timeBodyAccJerkMagstd
-timeBodyGyroMagmean
-timeBodyGyroMagstd
-timeBodyGyroJerkMagmean
-timeBodyGyroJerkMagstd
-frequencyBodyAccmeanX
-frequencyBodyAccmeanY
-frequencyBodyAccmeanZ
-frequencyBodyAccstdX
-frequencyBodyAccstdY
-frequencyBodyAccstdZ
-frequencyBodyAccmeanFreqX
-frequencyBodyAccmeanFreqY
-frequencyBodyAccmeanFreqZ
-frequencyBodyAccJerkmeanX
-frequencyBodyAccJerkmeanY
-frequencyBodyAccJerkmeanZ
-frequencyBodyAccJerkstdX
-frequencyBodyAccJerkstdY
-frequencyBodyAccJerkstdZ
-frequencyBodyAccJerkmeanFreqX
-frequencyBodyAccJerkmeanFreqY
-frequencyBodyAccJerkmeanFreqZ
-frequencyBodyGyromeanX
-frequencyBodyGyromeanY
-frequencyBodyGyromeanZ
-frequencyBodyGyrostdX
-frequencyBodyGyrostdY
-frequencyBodyGyrostdZ
-frequencyBodyGyromeanFreqX
-frequencyBodyGyromeanFreqY
-frequencyBodyGyromeanFreqZ
-frequencyBodyAccMagmean
-frequencyBodyAccMagstd
-frequencyBodyAccMagmeanFreq
-frequencyBodyBodyAccJerkMagmean
-frequencyBodyBodyAccJerkMagstd
-frequencyBodyBodyAccJerkMagmeanFreq
-frequencyBodyBodyGyroMagmean
-frequencyBodyBodyGyroMagstd
-frequencyBodyBodyGyroMagmeanFreq
-frequencyBodyBodyGyroJerkMagmean
-frequencyBodyBodyGyroJerkMagstd
-frequencyBodyBodyGyroJerkMagmeanFreq
-angletBodyAccMeangravity
-angletBodyAccJerkMeangravityMean
-angletBodyGyroMeangravityMean
-angletBodyGyroJerkMeangravityMean
-angleXgravityMean
-angleYgravityMean
-angleZgravityMean
+Time = time in seconds of activity; Frequency = count of activity)
+Mean Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+Mean Triaxial Angular velocity from the gyroscope. 
 
+
+timeBodyAccmeanX (double)
+timeBodyAccmeanY (double)
+timeBodyAccmeanZ (double)
+timeBodyAccstdX (double)
+timeBodyAccstdY (double)
+timeBodyAccstdZ (double)
+timeGravityAccmeanX (double)
+timeGravityAccmeanY (double)
+timeGravityAccmeanZ (double)
+timeGravityAccstdX (double)
+timeGravityAccstdY (double)
+timeGravityAccstdZ (double)
+timeBodyAccJerkmeanX (double)
+timeBodyAccJerkmeanY (double)
+timeBodyAccJerkmeanZ (double)
+timeBodyAccJerkstdX (double)
+timeBodyAccJerkstdY (double)
+timeBodyAccJerkstdZ (double)
+timeBodyGyromeanX (double)
+timeBodyGyromeanY (double)
+timeBodyGyromeanZ (double)
+timeBodyGyrostdX (double)
+timeBodyGyrostdY (double)
+timeBodyGyrostdZ (double)
+timeBodyGyroJerkmeanX (double)
+timeBodyGyroJerkmeanY (double)
+timeBodyGyroJerkmeanZ (double)
+timeBodyGyroJerkstdX (double)
+timeBodyGyroJerkstdY (double)
+timeBodyGyroJerkstdZ (double)
+timeBodyAccMagmean (double)
+timeBodyAccMagstd (double)
+timeGravityAccMagmean (double)
+timeGravityAccMagstd (double)
+timeBodyAccJerkMagmean (double)
+timeBodyAccJerkMagstd (double)
+timeBodyGyroMagmean (double)
+timeBodyGyroMagstd (double)
+timeBodyGyroJerkMagmean (double)
+timeBodyGyroJerkMagstd (double)
+frequencyBodyAccmeanX (double)
+frequencyBodyAccmeanY (double)
+frequencyBodyAccmeanZ (double)
+frequencyBodyAccstdX (double)
+frequencyBodyAccstdY (double)
+frequencyBodyAccstdZ (double)
+frequencyBodyAccmeanFreqX (double)
+frequencyBodyAccmeanFreqY (double)
+frequencyBodyAccmeanFreqZ (double)
+frequencyBodyAccJerkmeanX (double)
+frequencyBodyAccJerkmeanY (double)
+frequencyBodyAccJerkmeanZ (double)
+frequencyBodyAccJerkstdX (double)
+frequencyBodyAccJerkstdY (double)
+frequencyBodyAccJerkstdZ (double)
+frequencyBodyAccJerkmeanFreqX (double)
+frequencyBodyAccJerkmeanFreqY (double)
+frequencyBodyAccJerkmeanFreqZ (double)
+frequencyBodyGyromeanX (double)
+frequencyBodyGyromeanY (double)
+frequencyBodyGyromeanZ (double)
+frequencyBodyGyrostdX (double)
+frequencyBodyGyrostdY (double)
+frequencyBodyGyrostdZ (double)
+frequencyBodyGyromeanFreqX (double)
+frequencyBodyGyromeanFreqY (double)
+frequencyBodyGyromeanFreqZ (double)
+frequencyBodyAccMagmean (double)
+frequencyBodyAccMagstd (double)
+frequencyBodyAccMagmeanFreq (double)
+frequencyBodyBodyAccJerkMagmean (double)
+frequencyBodyBodyAccJerkMagstd (double)
+frequencyBodyBodyAccJerkMagmeanFreq (double)
+frequencyBodyBodyGyroMagmean (double)
+frequencyBodyBodyGyroMagstd (double)
+frequencyBodyBodyGyroMagmeanFreq (double)
+frequencyBodyBodyGyroJerkMagmean (double)
+frequencyBodyBodyGyroJerkMagstd (double)
+frequencyBodyBodyGyroJerkMagmeanFreq (double)
+angletBodyAccMeangravity (double)
+angletBodyAccJerkMeangravityMean (double)
+angletBodyGyroMeangravityMean (double)
+angletBodyGyroJerkMeangravityMean (double)
+angleXgravityMean (double)
+angleYgravityMean (double)
+angleZgravityMean (double)
 ========================
 Description of original data:
 
