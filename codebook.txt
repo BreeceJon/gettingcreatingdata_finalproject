@@ -2,10 +2,13 @@ Codebook
 =================
 
 Dataset: mean_activity_subject.txt
+Author: Brooks J. Breece
 
-Average for 86 measurements for each activity for each subject
-180 records
-Dimensions = 180 by 88
+Description:
+
+>Average for 86 measurements for each activity for each subject
+>180 records
+>Dimensions = 180 by 88
 
 
 The data used in this project:  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
