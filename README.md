@@ -26,8 +26,8 @@ How the script works:
 5. Imports feature names from features.txt file
 6. Adds feature names to columns
 7. Selects only columns with mean and standard deviation measurements
-8. Imports activity descriptions
-9. Add activity descriptions to table
+8. Imports activity descriptions from activity_labels.txt
+9. Adds activity descriptions to table
 10. Removes punctuation from column names and expands column names for clarity
 11. Groups data by activity and subject
 12. Summarizes measurements (mean) by activity and subject
