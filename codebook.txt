@@ -23,8 +23,10 @@ subject: Subject ID
 
 Measurements:
 Time = time in seconds of activity; Frequency = count of activity)
-Mean Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
-Mean Triaxial Angular velocity from the gyroscope. 
+
+Mean Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. [Mean of the raw triaxial acceleration signal for the experiment number XX and associated to the user number YY. Every row is one acceleration sample (three axis) captured at a frequency of 50Hz]
+
+Mean Triaxial Angular velocity from the gyroscope.  [Mean of the raw triaxial angular speed signal for the experiment number XX and associated to the user number YY. Every row is one angular velocity sample (three axis) captured at a frequency of 50Hz]
 
 
 timeBodyAccmeanX (double)
